@@ -65,11 +65,11 @@ func throwingIfOdd(_ number: String) throws(CustomError) -> Int {
 }
 ```
 
-The function now accepts a String input and attempts to decode it as an Int. If the decoding is successful, it evaluates whether the resulting Int is odd or even. However, if JSONDecoder encounters an error, we must catch it and map it to a CustomError. Even worse, we need to rethrow the CustomError that the function raised.
+The function now accepts a String input and attempts to decode it as an Int. If the decoding is successful, it evaluates whether the resulting Int is odd or even. However, if JSONDecoder throws an error, the code must catch it and map it to a CustomError. Even worse, we need to rethrow the CustomError that the function raised.
 
 # Where altai can help
 
-By conforming to the `UpliftingErrors` defined in **altai**, `CustomError` becomes 
+By conforming to the `UpliftingErrors` defined in **altai**, `CustomError` becomes
 
 ```swift
 enum CustomError: Error, UpliftingErrors {
@@ -94,7 +94,7 @@ func throwingIfOdd(_ number: String) throws(CustomError) -> Int {
 }
 ```
 
-The `DecodingError` thrown by `JSONDecoder` is uplift and made available to the `CustomError` consumer
+**altai** defines the extension method `uplift`, that catches the inner error and maps it to the domain specific error.
 
 ### Swift Package Manager
 
@@ -108,4 +108,3 @@ dependencies: [
   ),
 ]
 ```
-
