@@ -93,3 +93,17 @@ func throwingIfOdd(_ number: String) throws(CustomError) -> Int {
 ```
 
 The `DecodingError` thrown by `JSONDecoder` is uplift and made available to the `CustomError` consumer
+
+### Swift Package Manager
+
+If you want to use **altai** in any other project that uses [SwiftPM](https://swift.org/package-manager/), add the package as a dependency in `Package.swift`:
+
+```swift
+dependencies: [
+  .package(
+    url: "https://github.com/csanfilippo/altai/",
+    from: "1.0.0"
+  ),
+]
+```
+
