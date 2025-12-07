@@ -4,7 +4,7 @@
 
 # The background
 
-Typed throws have been introduced with [Swift 6](https://www.swift.org/blog/announcing-swift-6/) and permit functions to specify the type of error that they throw as part of their signature.
+[Swift 6](https://www.swift.org/blog/announcing-swift-6/) introduced typed throws, allowing functions to specify the type of error they can throw in their signature.
 
 ```swift
 enum CustomError: Error {
