@@ -26,7 +26,7 @@ let package = Package(
         .target(
             name: "altai",
             exclude: privacyManifestExclude,
-            resources: privacyManifestResource,
+            resources: privacyManifestResource
         ),
         .testTarget(
             name: "altaiTests",
