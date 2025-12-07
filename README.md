@@ -1,4 +1,6 @@
 # altai
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcsanfilippo%2Faltai%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/csanfilippo/altai)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcsanfilippo%2Faltai%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/csanfilippo/altai)
 
 **altai** is a simple Swift package aiming to improve the developer experience when using Swift [typed throws](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/errorhandling#Specifying-the-Error-Type).
 
