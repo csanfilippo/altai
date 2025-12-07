@@ -103,7 +103,7 @@ If you want to use **altai** in any other project that uses [SwiftPM](https://sw
 ```swift
 dependencies: [
   .package(
-    url: "https://github.com/csanfilippo/altai/",
+    url: "https://github.com/csanfilippo/altai.git",
     from: "1.0.0"
   ),
 ]
