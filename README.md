@@ -2,11 +2,6 @@
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcsanfilippo%2Faltai%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/csanfilippo/altai)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcsanfilippo%2Faltai%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/csanfilippo/altai)
 
-<img width="2314" height="1457" alt="altai_light" src="" />
-<img width="2314" height="1457" alt="altai_dark" src="h" />
-
-
-
 <picture>
   <source srcset="https://github.com/user-attachments/assets/ba9ebc14-cfdd-417a-8fe9-feb593a376b7" media="(prefers-color-scheme: dark)">
   <source srcset="https://github.com/user-attachments/assets/412816f3-611d-4d1f-9c14-d05885d36684"  media="(prefers-color-scheme: light)">
