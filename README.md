@@ -2,10 +2,15 @@
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcsanfilippo%2Faltai%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/csanfilippo/altai)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcsanfilippo%2Faltai%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/csanfilippo/altai)
 
+<img width="2314" height="1457" alt="altai_light" src="" />
+<img width="2314" height="1457" alt="altai_dark" src="h" />
+
+
+
 <picture>
-  <source srcset="https://github.com/user-attachments/assets/069d485f-9414-4e75-967f-605142bf0e50" media="(prefers-color-scheme: dark)">
-  <source srcset="https://github.com/user-attachments/assets/ec0bab86-81f6-4a5a-a690-bed189528d3f"  media="(prefers-color-scheme: light)">
-  <img src="https://github.com/user-attachments/assets/069d485f-9414-4e75-967f-605142bf0e50" alt="altai logo" width="470" height="296">
+  <source srcset="https://github.com/user-attachments/assets/ba9ebc14-cfdd-417a-8fe9-feb593a376b7" media="(prefers-color-scheme: dark)">
+  <source srcset="https://github.com/user-attachments/assets/412816f3-611d-4d1f-9c14-d05885d36684"  media="(prefers-color-scheme: light)">
+  <img src="https://github.com/user-attachments/assets/412816f3-611d-4d1f-9c14-d05885d36684" alt="altai logo" width="470" height="296">
 </picture>
 
 **altai** is a simple Swift package aiming to improve the developer experience when using Swift [typed throws](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/errorhandling#Specifying-the-Error-Type).
@@ -114,4 +119,5 @@ dependencies: [
   ),
 ]
 ```
+
 
