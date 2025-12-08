@@ -1,12 +1,4 @@
 version: 1
 builder:
   configs:
-    - platform: ios
-      target: altai
-    - platform: tvos
-      target: altai
-    - platform: watchos
-      target: altai
-	- platfor: macos
-	  target: altai
     - documentation_targets: [altai]
