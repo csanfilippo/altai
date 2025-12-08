@@ -79,7 +79,7 @@ struct UpliftingErrorsTests {
         } catch {
             switch error {
             case .oddNumber:
-                #expect(true)
+                #expect(Bool(true))
             default:
                 Issue.record()
             }

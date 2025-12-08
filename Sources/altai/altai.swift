@@ -33,15 +33,32 @@ import Foundation
 ///
 /// Example:
 /// ```swift
-/// enum NetworkError: Error, UpliftingErrors {
-///     case transport
-///     case decoding
-///     case uplifted(_ error: any Error)
-/// }
+///enum CustomError: Error, UpliftingErrors {
+///    case oddNumber
+///    case uplifted(any Error)
+///}
+///
+///func isEven(_ number: Int) -> Bool {
+///    return number.isMultiple(of: 2) || number == 0
+///}
+///
+///@discardableResult
+///func throwingIfOdd(_ number: String) throws(CustomError) -> Int {
+///
+///    let number = try CustomError.uplift {
+///        try JSONDecoder().decode(Int.self, from: number.data(using: .utf8)!)
+///    }
+///
+///    guard isEven(number) else {
+///        throw .oddNumber
+///    }
+///
+///    return number
+///}
 /// ```
 public protocol UpliftingErrors: Sendable {
     /// Convert any thrown error into this domain's error type.
-    /// - Parameter error: The original error to convert.
+    /// - Parameter error: The original error to uplift.
     /// - Returns: A `Self` value that represents the provided error in this domain.
     static func uplifted(_ error: any Error) -> Self
 }
